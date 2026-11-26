@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated_at": "2026-11-26T22:31:54.280761+00:00",
+    "generated_at": "2026-11-26T22:51:11.743767+00:00",
     "total": 237
   },
   "features": [
@@ -249,30 +249,6 @@
         "is_afup_signatory": true,
         "sources": [
           "afup_lettre_ouverte"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.58788,
-          44.85194
-        ]
-      },
-      "properties": {
-        "name": "Journée Portes Ouvertes au Wagon Bordeaux",
-        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317312936/",
-        "extra_urls": [],
-        "start_date": "2026-11-27",
-        "end_date": "2026-11-27",
-        "city": "Bordeaux",
-        "country": "France",
-        "is_online": false,
-        "is_afup_signatory": false,
-        "sources": [
-          "meetup"
         ]
       }
     },
@@ -1199,6 +1175,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "À travers les yeux d’une IA : atelier découverte de la data science",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317311220/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.347,
           48.859
         ]
@@ -1421,6 +1421,30 @@
         "end_date": "2026-12-03",
         "city": "Bruxelles",
         "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Session d’information : Intégrez la Data, le Code et l’IA dans votre métier",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317100916/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Bordeaux",
+        "country": "France",
         "is_online": false,
         "is_afup_signatory": false,
         "sources": [
@@ -2194,30 +2218,6 @@
         "end_date": "2026-12-10",
         "city": "Montréal",
         "country": "Canada",
-        "is_online": false,
-        "is_afup_signatory": false,
-        "sources": [
-          "meetup"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.58788,
-          44.85194
-        ]
-      },
-      "properties": {
-        "name": "Automatiser ses tâches au quotidien",
-        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317394311/",
-        "extra_urls": [],
-        "start_date": "2026-12-10",
-        "end_date": "2026-12-10",
-        "city": "Bordeaux",
-        "country": "France",
         "is_online": false,
         "is_afup_signatory": false,
         "sources": [
