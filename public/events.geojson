@@ -1,0 +1,5548 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated_at": "2026-11-26T22:31:54.280761+00:00",
+    "total": 237
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Compute! Paris 2026",
+        "url": "https://compute.events/paris2026/venue.html",
+        "extra_urls": [],
+        "start_date": "2026-11-25",
+        "end_date": "2026-11-27",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Building AI Voice Agents: DevPro x GDG McGill Workshop",
+        "url": "https://www.meetup.com/gdg-montreal/events/317457890/",
+        "extra_urls": [],
+        "start_date": "2026-11-26",
+        "end_date": "2026-11-26",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Nos métiers à l’ère de l’IA : évoluer, se réinventer ou disparaître ?",
+        "url": "https://luma.com/m0omm67f",
+        "extra_urls": [],
+        "start_date": "2026-11-26",
+        "end_date": "2026-11-26",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "luma"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "SymfonyCon Warsaw 2026",
+        "url": "https://live.symfony.com/2026-warsaw-con/",
+        "extra_urls": [
+          "https://symfony.com/"
+        ],
+        "start_date": "2026-11-26",
+        "end_date": "2026-11-27",
+        "city": "Warsaw",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "[VISIO] Café Yeeso - Spécial Networking",
+        "url": "https://www.meetup.com/yeeso-itwomen-network/events/316390381/",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Conférence /dev/mtl 2026",
+        "url": "https://www.dev-mtl.ca/",
+        "extra_urls": [
+          "https://dev.events/conferences/conference-dev-mtl-2026-98nfur1e"
+        ],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.95196,
+          50.45496
+        ]
+      },
+      "properties": {
+        "name": "DevFest Belgium",
+        "url": "https://devfest-belgium.be",
+        "extra_urls": [
+          "https://dev.events/conferences/dev-fest-belgium-ow1iwfu"
+        ],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Mons",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.20231,
+          48.89809
+        ]
+      },
+      "properties": {
+        "name": "DevFest Paris 2026",
+        "url": "https://dev.events/conferences/dev-fest-paris-2026-qko0tfdl",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Nanterre",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "DevFest Paris 2026",
+        "url": "https://devfest.gdgparis.fr/",
+        "extra_urls": [
+          "https://dev.events/conferences/dev-fest-paris-2026-p3tpnujc"
+        ],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.20231,
+          48.89809
+        ]
+      },
+      "properties": {
+        "name": "DevFest Paris 2026 [External Ticket]",
+        "url": "https://www.meetup.com/fr-FR/gdg-paris/events/316006107/",
+        "extra_urls": [
+          "https://www.meetup.com/fr-FR/gdg-paris/"
+        ],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Nanterre",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Journée Portes Ouvertes au Wagon Bordeaux",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317312936/",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.04539,
+          50.63095
+        ]
+      },
+      "properties": {
+        "name": "Journée Portes Ouvertes Au Wagon Lille",
+        "url": "https://www.meetup.com/le-wagon-lille-coding-station/events/317466420/",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Lille",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "Journée Portes Ouvertes au Wagon Nantes",
+        "url": "https://www.meetup.com/le-wagon-nantes-coding-bootcamp/events/317469615/",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.44794,
+          14.69342
+        ]
+      },
+      "properties": {
+        "name": "PyCon Senegambia Dakar 2026",
+        "url": "https://dev.events/conferences/py-con-senegambia-dakar-2026-aci0vgxb",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-28",
+        "city": "Dakar",
+        "country": "Sénégal",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "Vernissage de l’exposition photo « Portraits de femmes » par le Collectif DR",
+        "url": "https://www.meetup.com/meetup-harrycow-coworking-toulouse/events/316995009/",
+        "extra_urls": [],
+        "start_date": "2026-11-27",
+        "end_date": "2026-11-27",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "AI for Developers: Productivity, Building, and Dev Setup",
+        "url": "https://www.meetup.com/the-ubuntu-techhive-north-america/events/316847250/",
+        "extra_urls": [],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-28",
+        "city": "En ligne",
+        "country": "",
+        "is_online": true,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2776,
+          6.82001
+        ]
+      },
+      "properties": {
+        "name": "DevFest",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cocody-presents-devfest-lepicentre-mondial-de-linnovation-tech-et-communautaire/",
+        "extra_urls": [],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-28",
+        "city": "Yamoussoukro",
+        "country": "Côte d’Ivoire",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.03467,
+          -19.8714
+        ]
+      },
+      "properties": {
+        "name": "DevFest Antsirabe 2026",
+        "url": "https://gdg.community.dev/events/details/google-gdg-antsirabe-presents-devfest-antsirabe-2026/",
+        "extra_urls": [],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-29",
+        "city": "Antsirabé",
+        "country": "Madagascar",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2776,
+          6.82001
+        ]
+      },
+      "properties": {
+        "name": "DEVFEST CLOUD ABIDJAN 2026",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cloud-abidjan-presents-devfest-cloud-abidjan-2026/",
+        "extra_urls": [
+          "https://dev.events/conferences/devfest-cloud-abidjan-2026-jcn-bxdj"
+        ],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-28",
+        "city": "Yamoussoukro",
+        "country": "Côte d’Ivoire",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2776,
+          6.82001
+        ]
+      },
+      "properties": {
+        "name": "DevFest Côte d'Ivoire 2026 (Yamoussoukro)",
+        "url": "https://gdg.community.dev/events/details/google-gdg-yamoussoukro-presents-devfest-cote-divoire-2026-yamoussoukro/",
+        "extra_urls": [],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-28",
+        "city": "Yamoussoukro",
+        "country": "Côte d’Ivoire",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.44794,
+          14.69342
+        ]
+      },
+      "properties": {
+        "name": "DevFest Dakar 2026",
+        "url": "https://gdg.community.dev/events/details/google-gdg-dakar-presents-devfest-dakar-2026-build-the-future-with-ai/",
+        "extra_urls": [
+          "https://dev.events/conferences/dev-fest-dakar-2026-gueeyqzr"
+        ],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-28",
+        "city": "Dakar",
+        "country": "Sénégal",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7062,
+          4.04294
+        ]
+      },
+      "properties": {
+        "name": "Devfest Douala 2026",
+        "url": "https://devfest.gdgdouala.org",
+        "extra_urls": [],
+        "start_date": "2026-11-28",
+        "end_date": "2026-11-28",
+        "city": "Douala",
+        "country": "Cameroun",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Montreal AI ML Meetup",
+        "url": "https://www.meetup.com/montreal-ai-ml-meetup-group/events/317545998/",
+        "extra_urls": [],
+        "start_date": "2026-11-29",
+        "end_date": "2026-11-29",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Sunday Electronics Workshop",
+        "url": "https://www.meetup.com/hackerspace-brussels/events/317075008/",
+        "extra_urls": [],
+        "start_date": "2026-11-29",
+        "end_date": "2026-11-29",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "apidays Paris",
+        "url": "https://dev.events/conferences/apidays-paris-7xk3zi-c",
+        "extra_urls": [],
+        "start_date": "2026-11-30",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Le rendez-vous des AI Builders #13 - Hosted by « Lenstra »",
+        "url": "https://www.meetup.com/ai-first/events/317091185/",
+        "extra_urls": [],
+        "start_date": "2026-11-30",
+        "end_date": "2026-11-30",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Tech.Rocks Summit",
+        "url": "https://dev.events/conferences/tech-rocks-summit-aaxn2xuq",
+        "extra_urls": [],
+        "start_date": "2026-11-30",
+        "end_date": "2026-12-01",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "#120 LyonJS : 📝 Quand la doc prend les commandes 🤖",
+        "url": "https://www.lyonjs.org/",
+        "extra_urls": [
+          "https://www.meetup.com/lyonjs/events/317367635/"
+        ],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte",
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "[NANTES] IT Women Talks & Networking - 1 Décembre",
+        "url": "https://www.meetup.com/yeeso-itwomen-network/events/316415882/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Apidays Paris",
+        "url": "https://www.apidays.global/paris",
+        "extra_urls": [
+          "https://dev.events/conferences/apidays-paris-i1tmdbpu"
+        ],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Belgian PostgreSQL Meetup: Winter is Coming Edition ❄️🐘",
+        "url": "https://www.meetup.com/postgresbe/events/317453507/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Build It Summit",
+        "url": "https://builditsummit.com",
+        "extra_urls": [
+          "https://dev.events/conferences/build-it-summit-k66lx1xj"
+        ],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Cloud Native AI Summit - EUROPE 2026",
+        "url": "https://dev.events/conferences/cloud-native-ai-summit-europe-2026-vdg-ebb1",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Data & IA à Lyon : projets, blocages et retours terrain — Table ronde",
+        "url": "https://www.meetup.com/lyondatascience/events/316566050/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Entreprendre au féminin dans l’IA et la Cybersécurité : où en sommes-nous ?",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317310789/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "INSERT INTO meetup VALUES ('TLSPUG','Makina Corpus','2026-12-01');",
+        "url": "https://www.meetup.com/postgres-toulouse/events/316649251/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "LeadDev Paris Meetup #2",
+        "url": "https://www.meetup.com/leaddev-meetup-paris/events/317196578/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Paris Angular #9",
+        "url": "https://www.meetup.com/paris-angular/events/317327051/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18366,
+          50.68845
+        ]
+      },
+      "properties": {
+        "name": "Protéger vos données d'entreprise avec l'IA : comprendre et utiliser le RAG",
+        "url": "https://www.meetup.com/le-wagon-lille-coding-station/events/317299615/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Roubaix",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Rust meetup #90",
+        "url": "https://www.meetup.com/rust-paris/events/316865676/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "TechTuesday at HSBXL: Hacker’s Night In",
+        "url": "https://www.meetup.com/hackerspace-brussels/events/317384657/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Transfo IA : poser le cadre, lâcher les dogmes",
+        "url": "https://www.meetup.com/theproductcrew/events/317466348/",
+        "extra_urls": [],
+        "start_date": "2026-12-01",
+        "end_date": "2026-12-01",
+        "city": "En ligne",
+        "country": "",
+        "is_online": true,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "#7 Meetup A11Y chez Octo",
+        "url": "https://www.meetup.com/a11y-lutece/events/317086879/",
+        "extra_urls": [],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-02",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Cloud Native AI Summit Europe",
+        "url": "https://www.cloudnative.ai/events/paris",
+        "extra_urls": [
+          "https://dev.events/conferences/cloud-native-ai-summit-europe-tciiulfr"
+        ],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "Cocoaheads de Noël",
+        "url": "https://www.meetup.com/cocoaheads-nantes/events/317451115/",
+        "extra_urls": [],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-02",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Digital Resilience Europe",
+        "url": "https://digitalresilienceeurope.org/",
+        "extra_urls": [],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "La chocolaterie agile : financez les meilleures idées !",
+        "url": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/316815304/",
+        "extra_urls": [],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-02",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "Meetup #81 - IA et pros du web : on flippe, on s'adapte ou on change de métier ?",
+        "url": "https://www.meetup.com/wptoulouse/events/317496078/",
+        "extra_urls": [],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-02",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "ParisDataLadies#60 Le contexte et ses enjeux",
+        "url": "https://www.meetup.com/paris-dataladies/events/317381482/",
+        "extra_urls": [],
+        "start_date": "2026-12-02",
+        "end_date": "2026-12-02",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "AI Marketing Night #12 : IA et localisation",
+        "url": "https://luma.com/ifryicgz",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "luma"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Connecting Product Thinking with Delivery OOPSI",
+        "url": "https://www.meetup.com/producttank-paris/events/317373619/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "December Monthly Social",
+        "url": "https://www.meetup.com/rust-montreal/events/317415310/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Designers : rester bankable en 2027",
+        "url": "https://www.meetup.com/theproductcrew/events/317479071/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "En ligne",
+        "country": "",
+        "is_online": true,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.95196,
+          50.45496
+        ]
+      },
+      "properties": {
+        "name": "DevDay 2026",
+        "url": "https://dev.events/conferences/dev-day-2026-5o90ipfr",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Mons",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.95196,
+          50.45496
+        ]
+      },
+      "properties": {
+        "name": "DevDay 2026 - Alchemy",
+        "url": "https://www.devday.be",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Mons",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Meetup Airflow chez Datadog Paris !",
+        "url": "https://www.meetup.com/paris-apache-airflow-meetup/events/317190030/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "Retrouvons-nous le jeudi 3 décembre !",
+        "url": "https://www.meetup.com/latoulboxducloudnatif/events/317298875/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "REX - Du graphe au edge computing : concevoir une IA industrielle distribuée et réutilisable",
+        "url": "https://luma.com/rex-du-graphe-au-edge-computing-concevoir-une-ia-i",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "luma"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Servo Motion Control: From Theory to Practice",
+        "url": "https://www.meetup.com/openclaw-user-group-belgium/events/317467919/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.04539,
+          50.63095
+        ]
+      },
+      "properties": {
+        "name": "Sors de ChatGPT : construis ton propre système IA",
+        "url": "https://www.meetup.com/le-wagon-lille-coding-station/events/317303535/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Lille",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "WEHW Mensuel",
+        "url": "https://www.meetup.com/wocsa-ethical-hacking-workshop-toulouse/events/314961269/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.68365,
+          48.1109
+        ]
+      },
+      "properties": {
+        "name": "Agile Rennes",
+        "url": "https://www.billetweb.fr/open-forum-agile-rennes-2026",
+        "extra_urls": [
+          "https://dev.events/conferences/agile-rennes-647qwaj7"
+        ],
+        "start_date": "2026-12-04",
+        "end_date": "2026-12-04",
+        "city": "Rennes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "Comment déployer l’IA facilement en entreprise",
+        "url": "https://www.meetup.com/meetup-harrycow-coworking-toulouse/events/317299593/",
+        "extra_urls": [],
+        "start_date": "2026-12-04",
+        "end_date": "2026-12-04",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0336,
+          47.33195
+        ]
+      },
+      "properties": {
+        "name": "DevFest Dijon 2026",
+        "url": "https://devfest.developers-group-dijon.fr/",
+        "extra_urls": [],
+        "start_date": "2026-12-04",
+        "end_date": "2026-12-04",
+        "city": "Dijon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "DevFest Lyon 2026",
+        "url": "https://devfest.gdglyon.com/",
+        "extra_urls": [],
+        "start_date": "2026-12-04",
+        "end_date": "2026-12-04",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18578,
+          36.80021
+        ]
+      },
+      "properties": {
+        "name": "AICD Summit",
+        "url": "https://dev.events/conferences/aicd-summit-di87laut",
+        "extra_urls": [],
+        "start_date": "2026-12-05",
+        "end_date": "2026-12-06",
+        "city": "Tunis",
+        "country": "Tunisie",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18578,
+          36.80021
+        ]
+      },
+      "properties": {
+        "name": "AICD Summit 2026",
+        "url": "https://aicommunitydays.ai/events/aicd-summit-2026",
+        "extra_urls": [],
+        "start_date": "2026-12-05",
+        "end_date": "2026-12-06",
+        "city": "Tunis",
+        "country": "Tunisie",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18578,
+          36.80021
+        ]
+      },
+      "properties": {
+        "name": "CognitionX Tunisia 2026",
+        "url": "https://dev.events/conferences/cognition-x-tunisia-2026-nj4jwywa",
+        "extra_urls": [],
+        "start_date": "2026-12-05",
+        "end_date": "2026-12-06",
+        "city": "Tunis",
+        "country": "Tunisie",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40612,
+          43.54137
+        ]
+      },
+      "properties": {
+        "name": "DevFest Aix 2026",
+        "url": "https://dev.events/conferences/dev-fest-aix-2026-8c9fb77r",
+        "extra_urls": [],
+        "start_date": "2026-12-05",
+        "end_date": "2026-12-06",
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Forum des 10 ans de Lyon Data Science — Data, IA & communautés",
+        "url": "https://www.meetup.com/lyondatascience/events/317058087/",
+        "extra_urls": [],
+        "start_date": "2026-12-05",
+        "end_date": "2026-12-05",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Sunday Electronics Workshop",
+        "url": "https://www.meetup.com/hackerspace-brussels/events/317408757/",
+        "extra_urls": [],
+        "start_date": "2026-12-06",
+        "end_date": "2026-12-06",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Coding dojo",
+        "url": "https://www.meetup.com/software-crafters-bdx/events/317470919/",
+        "extra_urls": [],
+        "start_date": "2026-12-07",
+        "end_date": "2026-12-07",
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "UnitedXR Europe",
+        "url": "https://dev.events/conferences/united-xr-europe-px-a6jf6",
+        "extra_urls": [],
+        "start_date": "2026-12-07",
+        "end_date": "2026-12-09",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40612,
+          43.54137
+        ]
+      },
+      "properties": {
+        "name": "GDG Aix DevFest 2026",
+        "url": "https://gdg.community.dev/events/details/google-gdg-aix-en-provence-presents-gdg-aix-devfest-2026-une-nouvelle-edition-provencale/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.50338,
+          43.6098
+        ]
+      },
+      "properties": {
+        "name": "MUG TOULOUSE #7 - ANOM et IA Créative: le best-of mobile du DevFest",
+        "url": "https://www.meetup.com/mug-toulouse-mobile-user-group/events/317512622/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Balma",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Networking Breakfast: XR Austria x Advantage Austria Brussels",
+        "url": "https://www.meetup.com/xraustria/events/317343183/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "Odoo Academy CRM/Ventes - Nantes",
+        "url": "https://www.meetup.com/odoo-business-show-academies/events/317072589/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Paris dbt meetup #9",
+        "url": "https://www.meetup.com/paris-dbt-meetup/events/317467667/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "ToulouseJUG - La Der de 2026",
+        "url": "https://www.meetup.com/toulouse-java-user-group/events/317549304/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.04539,
+          50.63095
+        ]
+      },
+      "properties": {
+        "name": "Tous architectes ! Seul avenir pour les devs à l'heure de l'IA ?",
+        "url": "https://www.meetup.com/software-craftsmanship-lille/events/316936209/",
+        "extra_urls": [
+          "https://www.meetup.com/software-craftsmanship-lille/"
+        ],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Lille",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte",
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Transfo IA @ Rockfi  - Créer un Product OS",
+        "url": "https://www.meetup.com/theproductcrew/events/317577526/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "En ligne",
+        "country": "",
+        "is_online": true,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "🍻 Bière Agile - Agilité et IA ?",
+        "url": "https://www.meetup.com/agile-toulouse/events/317511306/",
+        "extra_urls": [],
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-08",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.89004,
+          45.76897
+        ]
+      },
+      "properties": {
+        "name": "[Présentiel] Coding dojo du soir : Secret kata",
+        "url": "https://www.meetup.com/fr-FR/software-craftsmanship-lyon/events/317563479/",
+        "extra_urls": [
+          "https://www.meetup.com/fr-fr/software-craftsmanship-lyon/"
+        ],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-09",
+        "city": "Villeurbanne",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "Atelier : Négociation (ft. Tech Speak'Her)",
+        "url": "https://www.meetup.com/agile-toulouse/events/317563790/",
+        "extra_urls": [],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-09",
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "DevOps REX",
+        "url": "https://dev.events/conferences/dev-ops-rex-oopvczio",
+        "extra_urls": [],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-10",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "DevOps REX 2026",
+        "url": "https://www.devopsrex.fr/",
+        "extra_urls": [],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-10",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1466,
+          46.20176
+        ]
+      },
+      "properties": {
+        "name": "KCD Suisse Romande 2026",
+        "url": "https://kcd.cloud-native-romandy.ch/",
+        "extra_urls": [],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-10",
+        "city": "Genève",
+        "country": "Suisse",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "OpenSource Expérience",
+        "url": "https://www.opensource-experience.com/",
+        "extra_urls": [
+          "https://dev.events/conferences/open-source-experience-2026-p-ntdtj5"
+        ],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-10",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "🍻 Afterwork Networking Digital - VOS QUESTIONS DIGITAL ONT DES RÉPONSES",
+        "url": "https://www.meetup.com/lyondigitalhub/events/316225698/",
+        "extra_urls": [],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-09",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "🎊 JS-MONTREAL 🎊",
+        "url": "https://www.meetup.com/js-montreal/events/317380267/",
+        "extra_urls": [],
+        "start_date": "2026-12-09",
+        "end_date": "2026-12-09",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Agentic AI Black Boxes — GenAI Montréal × Coveo",
+        "url": "https://www.meetup.com/generative-ai-montreal/events/317360250/",
+        "extra_urls": [],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Automatiser ses tâches au quotidien",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317394311/",
+        "extra_urls": [],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "DevCon 28 : sécurité | post-quantique | hacking édition 2027",
+        "url": "https://www.meetup.com/meetup-programmez/events/315681765/",
+        "extra_urls": [],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Expedition Meetup: From Messy Data to Answers with Snowflake CoCo & CoWork",
+        "url": "https://www.meetup.com/snowflake-montreal-user-group/events/317543979/",
+        "extra_urls": [],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40612,
+          43.54137
+        ]
+      },
+      "properties": {
+        "name": "KCD Provence",
+        "url": "https://cloudnative-provence.fr/",
+        "extra_urls": [
+          "https://dev.events/conferences/kcd-provence-eyhzpa6i",
+          "https://dev.events/conferences/kcd-provence-d46jm-a8"
+        ],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.89004,
+          45.76897
+        ]
+      },
+      "properties": {
+        "name": "Meetup de fin d'année à La Pavane",
+        "url": "https://www.meetup.com/afup-lyon-php/events/317580902/",
+        "extra_urls": [],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Villeurbanne",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Mindstone Lyon December AI Meetup",
+        "url": "https://www.meetup.com/mindstone-lyon-ai-meetup/events/316964995/",
+        "extra_urls": [],
+        "start_date": "2026-12-10",
+        "end_date": "2026-12-10",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Demo Day : Découvrez les projets finaux de nos apprenants",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317310887/",
+        "extra_urls": [],
+        "start_date": "2026-12-11",
+        "end_date": "2026-12-11",
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.04539,
+          50.63095
+        ]
+      },
+      "properties": {
+        "name": "Démo Day : Découvrez les projets finaux des apprenants Data du Wagon Lille",
+        "url": "https://www.meetup.com/le-wagon-lille-coding-station/events/317282746/",
+        "extra_urls": [],
+        "start_date": "2026-12-11",
+        "end_date": "2026-12-11",
+        "city": "Lille",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "Demo Day : Nos apprenants vous dévoilent leurs projets",
+        "url": "https://www.meetup.com/le-wagon-nantes-coding-bootcamp/events/317101141/",
+        "extra_urls": [],
+        "start_date": "2026-12-11",
+        "end_date": "2026-12-11",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.62003,
+          33.59451
+        ]
+      },
+      "properties": {
+        "name": "Agile En Med Casablanca 2026",
+        "url": "https://agileenmed.com",
+        "extra_urls": [
+          "https://dev.events/conferences/agile-en-med-casablanca-2026-5bycu7bt"
+        ],
+        "start_date": "2026-12-12",
+        "end_date": "2026-12-12",
+        "city": "Casablanca",
+        "country": "Maroc",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.57017,
+          34.26457
+        ]
+      },
+      "properties": {
+        "name": "DevFest Kenitra 2026",
+        "url": "https://gdg.community.dev/events/details/google-gdg-kenitra-presents-devfest-kenitra-2026/",
+        "extra_urls": [],
+        "start_date": "2026-12-12",
+        "end_date": "2026-12-12",
+        "city": "Kenitra",
+        "country": "Maroc",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Workshop - Artificial Intelligence through a real-world project in Python!",
+        "url": "https://www.meetup.com/montreal-python/events/316389768/",
+        "extra_urls": [],
+        "start_date": "2026-12-12",
+        "end_date": "2026-12-12",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Le rendez-vous des AI Builders #14 - Hosted by « ever-T | Groupe Wold »",
+        "url": "https://www.meetup.com/ai-first/events/317075135/",
+        "extra_urls": [],
+        "start_date": "2026-12-14",
+        "end_date": "2026-12-14",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Lightning Talks de Noël 🎄",
+        "url": "https://www.meetup.com/fr-FR/python-afpy-lyon/events/317071543/",
+        "extra_urls": [
+          "https://www.meetup.com/fr-fr/python-afpy-lyon/"
+        ],
+        "start_date": "2026-12-14",
+        "end_date": "2026-12-14",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "[Présentiel] Random Lightning talks",
+        "url": "https://www.meetup.com/fr-FR/software-craftsmanship-lyon/events/317437803/",
+        "extra_urls": [
+          "https://www.meetup.com/fr-fr/software-craftsmanship-lyon/",
+          "https://www.meetup.com/software-craftsmanship-lyon/events/317437803/"
+        ],
+        "start_date": "2026-12-15",
+        "end_date": "2026-12-15",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte",
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "AI Builders Brussels - Bring Your Own Laptop Edition - Dec 15",
+        "url": "https://www.meetup.com/aibuildersclub/events/317539698/",
+        "extra_urls": [],
+        "start_date": "2026-12-15",
+        "end_date": "2026-12-15",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "DATA DRINKS MONTHLY [MONTREAL]",
+        "url": "https://www.meetup.com/data-drinks-montreal/events/315854466/",
+        "extra_urls": [],
+        "start_date": "2026-12-15",
+        "end_date": "2026-12-15",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "From Vector Search to RAG: Powering AI Apps with AWS & MongoDB",
+        "url": "https://www.meetup.com/montreal-aws-users-united/events/317522411/",
+        "extra_urls": [],
+        "start_date": "2026-12-15",
+        "end_date": "2026-12-15",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Serverless & IA : Du code assisté aux APIs managées",
+        "url": "https://www.meetup.com/aws-lyon-amazon-web-services-user-group/events/317483835/",
+        "extra_urls": [],
+        "start_date": "2026-12-16",
+        "end_date": "2026-12-16",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1298,
+          49.61128
+        ]
+      },
+      "properties": {
+        "name": "aMP Day Luxembourg 2026",
+        "url": "https://ampcommunity.online/amp-day-luxembourg-2026/",
+        "extra_urls": [],
+        "start_date": "2026-12-17",
+        "end_date": "2026-12-17",
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.49884,
+          33.24333
+        ]
+      },
+      "properties": {
+        "name": "DevFest EL Jadida 2026",
+        "url": "https://gdg.community.dev/events/details/google-gdg-el-jadida-presents-devfest-el-jadida-2026/",
+        "extra_urls": [],
+        "start_date": "2026-12-19",
+        "end_date": "2026-12-20",
+        "city": "El Jadida",
+        "country": "Maroc",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Sunday Electronics Workshop",
+        "url": "https://www.meetup.com/hackerspace-brussels/events/317408759/",
+        "extra_urls": [],
+        "start_date": "2026-12-20",
+        "end_date": "2026-12-20",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7243,
+          45.18283
+        ]
+      },
+      "properties": {
+        "name": "SnowCamp 2027",
+        "url": "https://snowcamp.io/",
+        "extra_urls": [],
+        "start_date": "2027-01-14",
+        "end_date": "2027-01-16",
+        "city": "Grenoble",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Symfony January 2027",
+        "url": "https://live.symfony.com/2027-online-january/",
+        "extra_urls": [
+          "https://symfony.com/"
+        ],
+        "start_date": "2027-01-14",
+        "end_date": "2027-01-15",
+        "city": "En ligne",
+        "country": "",
+        "is_online": true,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Test Forward 2027",
+        "url": "https://dev.events/conferences/test-forward-2027-lgxleqfn",
+        "extra_urls": [],
+        "start_date": "2027-01-19",
+        "end_date": "2027-01-19",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.04539,
+          50.63095
+        ]
+      },
+      "properties": {
+        "name": "Archéologie logicielle : reconstruire un jeu sans son code source",
+        "url": "https://www.meetup.com/software-craftsmanship-lille/events/317008425/",
+        "extra_urls": [
+          "https://www.meetup.com/software-craftsmanship-lille/"
+        ],
+        "start_date": "2027-01-20",
+        "end_date": "2027-01-20",
+        "city": "Lille",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "EU Open Source Week",
+        "url": "https://opensourceweek.eu/",
+        "extra_urls": [
+          "https://dev.events/conferences/eu-open-source-week-yzwrxni4"
+        ],
+        "start_date": "2027-01-25",
+        "end_date": "2027-02-01",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Code & Compliance 2027",
+        "url": "https://codeandcompliance.orcwg.org",
+        "extra_urls": [
+          "https://dev.events/conferences/code-and-compliance-2027-v0ndz59k"
+        ],
+        "start_date": "2027-01-28",
+        "end_date": "2027-01-28",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Drupal 4 Gov 2027",
+        "url": "http://drupal4gov.eu/",
+        "extra_urls": [
+          "https://dev.events/conferences/drupal-4-gov-2027-tfnxu30n"
+        ],
+        "start_date": "2027-01-28",
+        "end_date": "2027-01-28",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "FOSSapalooza 2027",
+        "url": "https://fossapalooza.eu/",
+        "extra_urls": [],
+        "start_date": "2027-01-28",
+        "end_date": "2027-01-28",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "MySQL Belgian Days 2027",
+        "url": "https://sessionize.com/mysql-belgian-days-2027/",
+        "extra_urls": [
+          "https://dev.events/conferences/my-sql-belgian-days-2027-beusug25"
+        ],
+        "start_date": "2027-01-28",
+        "end_date": "2027-01-29",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "FOSSapalooza",
+        "url": "https://fossapalooza.eu/",
+        "extra_urls": [
+          "https://dev.events/conferences/fos-sapalooza-ceyxnhw3"
+        ],
+        "start_date": "2027-01-29",
+        "end_date": "2027-01-29",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "FOSDEM 2027",
+        "url": "https://fosdem.org/2027/",
+        "extra_urls": [
+          "https://dev.events/conferences/fosdem-2027-cn3ingd"
+        ],
+        "start_date": "2027-01-30",
+        "end_date": "2027-01-31",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "FOSDEM 2027: Beyond the CRA",
+        "url": "https://dev.events/conferences/fosdem-2027-beyond-the-cra-nncwcpm",
+        "extra_urls": [],
+        "start_date": "2027-01-30",
+        "end_date": "2027-01-31",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "OpenEmbedded Workshop 2027",
+        "url": "https://pretalx.com/openembedded-workshop-2027/",
+        "extra_urls": [],
+        "start_date": "2027-02-01",
+        "end_date": "2027-02-01",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "OpenJDK Committers' Workshop",
+        "url": "https://dev.events/conferences/open-jdk-committers-workshop-azwnwfmt",
+        "extra_urls": [],
+        "start_date": "2027-02-01",
+        "end_date": "2027-02-01",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1466,
+          46.20176
+        ]
+      },
+      "properties": {
+        "name": "AI Days 2027",
+        "url": "https://dev.events/conferences/ai-days-2027-vbok1rqn",
+        "extra_urls": [],
+        "start_date": "2027-02-17",
+        "end_date": "2027-02-17",
+        "city": "Genève",
+        "country": "Suisse",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.69585,
+          47.39548
+        ]
+      },
+      "properties": {
+        "name": "Touraine Tech 2027",
+        "url": "https://touraine.tech/",
+        "extra_urls": [],
+        "start_date": "2027-02-18",
+        "end_date": "2027-02-19",
+        "city": "Tours",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.71504,
+          45.14612
+        ]
+      },
+      "properties": {
+        "name": "AlpOSS 2027",
+        "url": "https://alposs.fr/",
+        "extra_urls": [
+          "https://dev.events/conferences/alp-oss-2027-pyey8pkv"
+        ],
+        "start_date": "2027-02-23",
+        "end_date": "2027-02-23",
+        "city": "Echirolles",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "ConFoo",
+        "url": "https://dev.events/conferences/con-foo-yqggvvum",
+        "extra_urls": [],
+        "start_date": "2027-02-24",
+        "end_date": "2027-02-26",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Confoo 2027",
+        "url": "https://confoo.ca/fr/2027",
+        "extra_urls": [
+          "https://dev.events/conferences/con-foo-2027-tenwqwam",
+          "https://dev.events/conferences/confoo-2027-axexzsec"
+        ],
+        "start_date": "2027-02-24",
+        "end_date": "2027-02-26",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Data AI Sovereignty Summit",
+        "url": "https://dev.events/conferences/data-ai-sovereignty-summit-fndhc22o",
+        "extra_urls": [],
+        "start_date": "2027-02-25",
+        "end_date": "2027-02-25",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "HUNTCON 2027",
+        "url": "https://dev.events/conferences/huntcon-2027-gkplarcc",
+        "extra_urls": [],
+        "start_date": "2027-03-04",
+        "end_date": "2027-03-05",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "ObservabilityCON on the Road: Paris",
+        "url": "https://dev.events/conferences/observability-con-on-the-road-paris-qhhvalv",
+        "extra_urls": [],
+        "start_date": "2027-03-04",
+        "end_date": "2027-03-04",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1466,
+          46.20176
+        ]
+      },
+      "properties": {
+        "name": "Voxxed Days CERN",
+        "url": "https://cern.voxxeddays.ch/",
+        "extra_urls": [],
+        "start_date": "2027-03-05",
+        "end_date": "2027-03-05",
+        "city": "Genève",
+        "country": "Suisse",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1466,
+          46.20176
+        ]
+      },
+      "properties": {
+        "name": "Voxxed Days CERN Geneva",
+        "url": "https://dev.events/conferences/voxxed-days-cern-geneva-pz5a5zef",
+        "extra_urls": [],
+        "start_date": "2027-03-05",
+        "end_date": "2027-03-05",
+        "city": "Genève",
+        "country": "Suisse",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1298,
+          49.61128
+        ]
+      },
+      "properties": {
+        "name": "Nexus Luxembourg 2027",
+        "url": "https://dev.events/conferences/nexus-luxembourg-2027-jfr5iz9g",
+        "extra_urls": [],
+        "start_date": "2027-03-09",
+        "end_date": "2027-03-10",
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "JChateau",
+        "url": "https://www.jchateau.org/",
+        "extra_urls": [],
+        "start_date": "2027-03-10",
+        "end_date": "2027-03-14",
+        "city": "Loire Valley",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "DevFest Nantes 2027",
+        "url": "https://devfest.gdgnantes.com/",
+        "extra_urls": [
+          "https://dev.events/conferences/devfest-nantes-2027-jekjtxui"
+        ],
+        "start_date": "2027-03-11",
+        "end_date": "2027-03-12",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Entrypoint 2027",
+        "url": "https://dev.events/conferences/entrypoint-2027-mz3cnwfz",
+        "extra_urls": [],
+        "start_date": "2027-03-15",
+        "end_date": "2027-03-20",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Agile France 2027 : Transformons dans un monde incertain",
+        "url": "https://dev.events/conferences/agile-france-2027-transformons-dans-un-monde-incertain-1xdf7y4w",
+        "extra_urls": [],
+        "start_date": "2027-03-18",
+        "end_date": "2027-03-19",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Entrypoint 2027",
+        "url": "https://entrypoint.fr/",
+        "extra_urls": [],
+        "start_date": "2027-03-19",
+        "end_date": "2027-03-20",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76145,
+          48.57983
+        ]
+      },
+      "properties": {
+        "name": "Devfest Strasbourg",
+        "url": "https://devfest.gdgstrasbourg.fr/",
+        "extra_urls": [],
+        "start_date": "2027-03-23",
+        "end_date": "2027-03-23",
+        "city": "Strasbourg",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "ParisTestconf",
+        "url": "https://paristestconf.com/",
+        "extra_urls": [],
+        "start_date": "2027-03-23",
+        "end_date": "2027-03-23",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "ParisTestConf 2027",
+        "url": "https://dev.events/conferences/paris-test-conf-2027-qrmvy10v",
+        "extra_urls": [],
+        "start_date": "2027-03-23",
+        "end_date": "2027-03-23",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37193,
+          49.18432
+        ]
+      },
+      "properties": {
+        "name": "Printemps Agile 2027",
+        "url": "https://www.club-agile-normandie.fr/",
+        "extra_urls": [
+          "https://dev.events/conferences/printemps-agile-2027-nljcxyj"
+        ],
+        "start_date": "2027-03-23",
+        "end_date": "2027-03-23",
+        "city": "Caen",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "SymfonyLive Paris 2027",
+        "url": "https://live.symfony.com/2027-paris/",
+        "extra_urls": [
+          "https://symfony.com/",
+          "https://dev.events/conferences/symfony-live-paris-2027-rfcbtpkn"
+        ],
+        "start_date": "2027-03-25",
+        "end_date": "2027-03-26",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte",
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Salon Data & IA - Lyon 2027",
+        "url": "https://dev.events/conferences/salon-data-and-ia-lyon-2027-6ktgjryz",
+        "extra_urls": [],
+        "start_date": "2027-04-01",
+        "end_date": "2027-04-01",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Devoxx France",
+        "url": "https://dev.events/conferences/devoxx-france-tq1dnu-n",
+        "extra_urls": [],
+        "start_date": "2027-04-07",
+        "end_date": "2027-04-09",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Devoxx France 2027",
+        "url": "https://www.devoxx.fr/",
+        "extra_urls": [],
+        "start_date": "2027-04-07",
+        "end_date": "2027-04-09",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "RPLL 2027",
+        "url": "https://www.rpll.fr/",
+        "extra_urls": [
+          "https://dev.events/conferences/rpll-2027-gszvjsrn"
+        ],
+        "start_date": "2027-04-08",
+        "end_date": "2027-04-08",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "HPSF Conference",
+        "url": "https://dev.events/conferences/hpsf-conference-viokqts",
+        "extra_urls": [],
+        "start_date": "2027-04-12",
+        "end_date": "2027-04-16",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "HPSF Conference 2027",
+        "url": "https://events.linuxfoundation.org/hpsf-conference/",
+        "extra_urls": [],
+        "start_date": "2027-04-12",
+        "end_date": "2027-04-16",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35249,
+          50.84674
+        ]
+      },
+      "properties": {
+        "name": "Open Community Experience",
+        "url": "https://ocxconf.org",
+        "extra_urls": [
+          "https://dev.events/conferences/open-community-experience-8epmj-ck"
+        ],
+        "start_date": "2027-04-13",
+        "end_date": "2027-04-15",
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "MODERN ENDPOINT MANAGEMENT EMEA SUMMIT 2027",
+        "url": "https://www.endpointsummit.com",
+        "extra_urls": [],
+        "start_date": "2027-04-14",
+        "end_date": "2027-04-16",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "MiXit",
+        "url": "https://dev.events/conferences/mi-xit-8skfotpx",
+        "extra_urls": [],
+        "start_date": "2027-04-22",
+        "end_date": "2027-04-23",
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Mobile Makers 2027",
+        "url": "https://mobilemakers.fr/",
+        "extra_urls": [
+          "https://dev.events/conferences/mobile-makers-2027-ymqomp-u"
+        ],
+        "start_date": "2027-04-30",
+        "end_date": "2027-04-30",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte",
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "PGConf.dev 2027",
+        "url": "https://dev.events/conferences/pg-conf-dev-2027-57dmkvjx",
+        "extra_urls": [],
+        "start_date": "2027-05-11",
+        "end_date": "2027-05-14",
+        "city": "Montréal",
+        "country": "Canada",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1298,
+          49.61128
+        ]
+      },
+      "properties": {
+        "name": "BA & Beyond Europe Luxembourg 2027",
+        "url": "https://ba-beyond.eu",
+        "extra_urls": [
+          "https://dev.events/conferences/ba-and-beyond-europe-luxembourg-2027-uunsc0l7"
+        ],
+        "start_date": "2027-05-18",
+        "end_date": "2027-05-18",
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "SymfonyLive Germany 2027",
+        "url": "https://live.symfony.com/2027-germany/",
+        "extra_urls": [
+          "https://symfony.com/"
+        ],
+        "start_date": "2027-05-20",
+        "end_date": "2027-05-21",
+        "city": "Cologne",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1466,
+          46.20176
+        ]
+      },
+      "properties": {
+        "name": "Devopsdays Geneva",
+        "url": "https://devopsdays.org/events/2027-geneva",
+        "extra_urls": [
+          "https://dev.events/conferences/devopsdays-geneva-tbnx9vrd",
+          "https://dev.events/conferences/dev-ops-days-geneva-a9nsur3m"
+        ],
+        "start_date": "2027-05-25",
+        "end_date": "2027-05-26",
+        "city": "Genève",
+        "country": "Suisse",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events",
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.28634,
+          48.80336
+        ]
+      },
+      "properties": {
+        "name": "OW2con'27",
+        "url": "https://www.ow2con.org/",
+        "extra_urls": [],
+        "start_date": "2027-05-25",
+        "end_date": "2027-05-26",
+        "city": "Châtillon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.68365,
+          48.1109
+        ]
+      },
+      "properties": {
+        "name": "SSTIC",
+        "url": "https://www.sstic.org",
+        "extra_urls": [],
+        "start_date": "2027-06-02",
+        "end_date": "2027-06-02",
+        "city": "Rennes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Cloud Native Days France 2027",
+        "url": "https://www.cloudnativedays.fr/",
+        "extra_urls": [],
+        "start_date": "2027-06-03",
+        "end_date": "2027-06-03",
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "TechReady 2027",
+        "url": "https://techready.live/",
+        "extra_urls": [],
+        "start_date": "2027-06-10",
+        "end_date": "2027-06-10",
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.27373,
+          49.51356
+        ]
+      },
+      "properties": {
+        "name": "Voxxed Days Luxembourg",
+        "url": "https://dev.events/conferences/voxxed-days-luxembourg-d-3nabhe",
+        "extra_urls": [],
+        "start_date": "2027-06-21",
+        "end_date": "2027-06-22",
+        "city": "Mondorf-les-Bains",
+        "country": "Luxembourg",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "dev.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.87048,
+          43.61048
+        ]
+      },
+      "properties": {
+        "name": "Sunny Tech 2027",
+        "url": "https://sunny-tech.io",
+        "extra_urls": [
+          "https://sunny-tech.io/"
+        ],
+        "start_date": "2027-07-01",
+        "end_date": "2027-07-02",
+        "city": "Montpellier",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.09391,
+          49.44005
+        ]
+      },
+      "properties": {
+        "name": "Normandie.ai 2026",
+        "url": "https://normandie.ai",
+        "extra_urls": [],
+        "start_date": "2027-07-02",
+        "end_date": "2027-07-02",
+        "city": "Rouen",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "developers.events"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "AFPY",
+        "url": "https://www.pycon.fr/2026/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.87048,
+          43.61048
+        ]
+      },
+      "properties": {
+        "name": "Agile Montpellier",
+        "url": "https://agilemontpellier.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Montpellier",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55533,
+          47.23937
+        ]
+      },
+      "properties": {
+        "name": "Agile Nantes",
+        "url": "https://agilenantes.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Nantes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.68365,
+          48.1109
+        ]
+      },
+      "properties": {
+        "name": "Agile Rennes",
+        "url": "https://www.agilerennes.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Rennes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Agile Tour Bordeaux",
+        "url": "https://agiletourbordeaux.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76145,
+          48.57983
+        ]
+      },
+      "properties": {
+        "name": "Agile Tour Strasbourg",
+        "url": "https://agilestrasbourg.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Strasbourg",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "AlpesCraft",
+        "url": "https://www.alpescraft.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "AlpesJUG",
+        "url": "https://alpesjug.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "apidays Paris",
+        "url": "https://www.apidays.global/events/paris",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "BDX I/O",
+        "url": "https://bdxio.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "BordeauxKt",
+        "url": "https://bordeauxkt.io/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "BreizhCamp",
+        "url": "https://www.breizhcamp.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76145,
+          48.57983
+        ]
+      },
+      "properties": {
+        "name": "Bretzel Craft",
+        "url": "https://strasbourg-craft.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Strasbourg",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Café DevOps Lyon",
+        "url": "https://cafedevops.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Chtitedev",
+        "url": "https://chtitedev.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Cloud Native AI Summit Paris",
+        "url": "https://www.cloudnative.ai/events/paris",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40612,
+          43.54137
+        ]
+      },
+      "properties": {
+        "name": "Cloud Native Provence",
+        "url": "https://cloudnative-provence.fr/fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Cloud Nord",
+        "url": "https://cloudnord.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.09391,
+          49.44005
+        ]
+      },
+      "properties": {
+        "name": "Codeurs en Seine",
+        "url": "https://www.codeursenseine.com/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Rouen",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Communauté GitLab France",
+        "url": "https://luma.com/gitlab-france",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Communauté Laravel France",
+        "url": "https://laravel-france.com/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Communauté WordPress Francophone",
+        "url": "https://wpfr.net/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "ContextCon",
+        "url": "https://contextcon.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "CTO de Lyon",
+        "url": "https://cto-de-lyon.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Dev With AI",
+        "url": "https://devw.ai/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "DevLille",
+        "url": "https://devlille.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "DevQuest",
+        "url": "https://www.devquest.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Digital Nights",
+        "url": "https://www.lagrappenumerique.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Drupal France",
+        "url": "https://www.drupal.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Duchess France",
+        "url": "https://www.duchess-france.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "FePSeM",
+        "url": "https://fepsem.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Flupa",
+        "url": "https://flupa.eu/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Fork IT!",
+        "url": "https://www.forkit.community/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Friends of Presta",
+        "url": "https://friendsofpresta.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "GenerationAI Paris",
+        "url": "https://www.generationaiconf.com/events/paris",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Hacoeur - Humain au coeur",
+        "url": "https://www.hacoeur.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Human Talks",
+        "url": "https://humantalks.com/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "JS&Co",
+        "url": "https://www.jsandco.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Keikenchiba",
+        "url": "https://keikenchiba.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "LavaJUG",
+        "url": "https://www.lavajug.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Le Bik’Lab",
+        "url": "https://www.lebiklab.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "LyonTechHub",
+        "url": "https://www.lyontechhub.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "MatomoCamp",
+        "url": "https://matomocamp.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Mixit",
+        "url": "https://mixitconf.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "MongoDB User Group",
+        "url": "https://www.meetup.com/mongodb-usergroup-paris",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.49773,
+          48.40615
+        ]
+      },
+      "properties": {
+        "name": "new La Cantine Brest",
+        "url": "https://www.lacantine-brest.net/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Brest",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "new NewCrafts",
+        "url": "https://ncrafts.io/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "new PHP Morocco",
+        "url": "https://phpmorocco.ma/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "new TYPO3 Association",
+        "url": "https://typo3.org/association",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Nord Agile",
+        "url": "https://nord-agile.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "Okiwi",
+        "url": "https://okiwi.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Bordeaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "OpenGento",
+        "url": "https://opengento.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Paris TypeScript",
+        "url": "https://typescript.paris/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Paris Web",
+        "url": "https://www.paris-web.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "ParisTestConf (AFQT)",
+        "url": "https://paristestconf.com/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "PHP Foundation",
+        "url": "https://thephp.foundation/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "React Native Connection",
+        "url": "https://reactnativeconnection.io/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "React.paris",
+        "url": "https://react.paris/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.01656,
+          43.62734
+        ]
+      },
+      "properties": {
+        "name": "Riviera Dev",
+        "url": "https://rivieradev.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Valbonne",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "SnowCamp",
+        "url": "https://snowcamp.io/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.68365,
+          48.1109
+        ]
+      },
+      "properties": {
+        "name": "SoCraTes Rennes",
+        "url": "https://socrates-rennes.org/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Rennes",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347,
+          48.859
+        ]
+      },
+      "properties": {
+        "name": "Swift Connection",
+        "url": "https://swiftconnection.io/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4338,
+          43.60408
+        ]
+      },
+      "properties": {
+        "name": "Sylius Party",
+        "url": "https://syliusparty.emagma.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Toulouse",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835,
+          45.758
+        ]
+      },
+      "properties": {
+        "name": "Tech’Work",
+        "url": "https://techwork.events/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Lyon",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Volcamp",
+        "url": "https://www.volcamp.io/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40612,
+          43.54137
+        ]
+      },
+      "properties": {
+        "name": "Web Days",
+        "url": "https://webdays.events/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Yeeso",
+        "url": "https://yeeso.fr/",
+        "extra_urls": [],
+        "start_date": null,
+        "end_date": null,
+        "city": "",
+        "country": "",
+        "is_online": false,
+        "is_afup_signatory": true,
+        "sources": [
+          "afup_lettre_ouverte"
+        ]
+      }
+    }
+  ]
+}

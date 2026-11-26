@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Carte des événements tech francophones</title>
+  <link rel="stylesheet" href="./vendor/leaflet.css">
+  <link rel="stylesheet" href="./vendor/MarkerCluster.css">
+  <link rel="stylesheet" href="./vendor/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./vendor/leaflet.js"></script>
+  <script defer src="./vendor/leaflet.markercluster.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#results">Aller aux résultats</a>
+  <header>
+    <div class="masthead">
+      <h1>Événements tech francophones</h1>
+      <a class="download" href="./events.geojson" download>Télécharger le GeoJSON</a>
+    </div>
+    <div class="filters" role="search" aria-label="Filtres des événements">
+      <label>Recherche <input id="query" type="search" placeholder="Ville, événement, communauté"></label>
+      <label>Source
+        <select id="source">
+          <option value="">Toutes les sources</option>
+          <option value="afup_lettre_ouverte">Lettre ouverte AFUP</option>
+          <option value="developers.events">developers.events</option>
+          <option value="dev.events">dev.events</option>
+          <option value="luma">Luma</option>
+          <option value="meetup">Meetup</option>
+        </select>
+      </label>
+      <label>Lieu
+        <select id="place">
+          <option value="">Tous les lieux</option>
+          <option value="physical">En présentiel</option>
+          <option value="online">En ligne</option>
+          <option value="unknown">Sans lieu précisé</option>
+        </select>
+      </label>
+      <label class="check"><input id="afup" type="checkbox"> Signataires AFUP uniquement</label>
+    </div>
+  </header>
+  <main>
+    <section class="results" aria-labelledby="results">
+      <h2 id="results" tabindex="-1">Événements et communautés</h2>
+      <p id="status" role="status">Chargement des données…</p>
+      <a id="map-link" href="#map-heading" hidden>Aller à la carte</a>
+      <ul id="list"></ul>
+      <noscript>Activez JavaScript pour afficher les résultats ou téléchargez le fichier GeoJSON.</noscript>
+    </section>
+    <section class="map-panel" aria-labelledby="map-heading">
+      <div class="map-header">
+        <h2 id="map-heading" tabindex="-1">Carte</h2>
+        <a href="#results">Retour aux résultats</a>
+      </div>
+      <div id="map"></div>
+      <p id="map-message" role="status"></p>
+    </section>
+  </main>
+</body>
+</html>
