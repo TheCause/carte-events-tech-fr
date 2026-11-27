@@ -1,3 +1,5 @@
 .venv/
 __pycache__/
 .geocache.sqlite*
+.DS_Store
+.claude/

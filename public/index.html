@@ -2,8 +2,11 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
   <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.tile.openstreetmap.fr; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="description" content="Carte interactive et agenda filtrable des prochains événements tech francophones et des communautés signataires de la lettre ouverte de l’AFUP.">
   <title>Carte des événements tech francophones</title>
   <link rel="stylesheet" href="./vendor/leaflet.css">
   <link rel="stylesheet" href="./vendor/MarkerCluster.css">
@@ -17,48 +20,90 @@
   <a class="skip" href="#results">Aller aux résultats</a>
   <header>
     <div class="masthead">
-      <h1>Événements tech francophones</h1>
+      <div>
+        <h1>Événements tech francophones</h1>
+        <p class="subtitle">Prochaines dates et communautés signataires de la <a href="https://lettreouverte.afup.org/" rel="noreferrer">lettre ouverte de l’AFUP</a></p>
+      </div>
       <a class="download" href="./events.geojson" download>Télécharger le GeoJSON</a>
     </div>
-    <div class="filters" role="search" aria-label="Filtres des événements">
-      <label>Recherche <input id="query" type="search" placeholder="Ville, événement, communauté"></label>
-      <label>Source
-        <select id="source">
-          <option value="">Toutes les sources</option>
-          <option value="afup_lettre_ouverte">Lettre ouverte AFUP</option>
-          <option value="developers.events">developers.events</option>
-          <option value="dev.events">dev.events</option>
-          <option value="luma">Luma</option>
-          <option value="meetup">Meetup</option>
-        </select>
-      </label>
-      <label>Lieu
-        <select id="place">
-          <option value="">Tous les lieux</option>
-          <option value="physical">En présentiel</option>
-          <option value="online">En ligne</option>
-          <option value="unknown">Sans lieu précisé</option>
-        </select>
-      </label>
-      <label class="check"><input id="afup" type="checkbox"> Signataires AFUP uniquement</label>
-    </div>
+    <search aria-label="Filtres des événements">
+      <form id="filter-form" class="filters" action="./" method="get">
+        <div class="field field-search">
+          <label for="query">Recherche</label>
+          <input id="query" name="q" type="search" placeholder="Ville, événement, techno, communauté" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="search">
+        </div>
+        <div class="field">
+          <label for="period">Période</label>
+          <select id="period" name="period">
+            <option value="">Tout afficher</option>
+            <option value="upcoming">Événements à venir</option>
+            <option value="month">30 prochains jours</option>
+            <option value="communities">Communautés sans date</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="country">Pays</label>
+          <select id="country" name="country">
+            <option value="">Tous les pays</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="source">Source</label>
+          <select id="source" name="source">
+            <option value="">Toutes les sources</option>
+            <option value="afup_lettre_ouverte">Lettre ouverte AFUP</option>
+            <option value="developers.events">developers.events</option>
+            <option value="dev.events">dev.events</option>
+            <option value="luma">Luma</option>
+            <option value="meetup">Meetup</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="place">Format</label>
+          <select id="place" name="place">
+            <option value="">Tous les formats</option>
+            <option value="physical">En présentiel</option>
+            <option value="online">En ligne</option>
+            <option value="unknown">Sans lieu précisé</option>
+          </select>
+        </div>
+        <label for="afup" class="check">
+          <input id="afup" name="afup" type="checkbox" value="1">
+          <span>Signataires AFUP uniquement</span>
+        </label>
+        <button id="reset" type="reset" class="secondary-btn" hidden>Réinitialiser</button>
+      </form>
+    </search>
   </header>
   <main>
-    <section class="results" aria-labelledby="results">
-      <h2 id="results" tabindex="-1">Événements et communautés</h2>
-      <p id="status" role="status">Chargement des données…</p>
-      <a id="map-link" href="#map-heading" hidden>Aller à la carte</a>
-      <ul id="list"></ul>
-      <noscript>Activez JavaScript pour afficher les résultats ou téléchargez le fichier GeoJSON.</noscript>
-    </section>
-    <section class="map-panel" aria-labelledby="map-heading">
+    <div class="results">
+      <div class="results-header">
+        <h2 id="results" tabindex="-1">Événements et communautés</h2>
+        <a id="map-link" href="#map-heading" hidden>Aller à la carte</a>
+      </div>
+      <p id="summary" class="summary">Chargement des données…</p>
+      <p id="status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
+      <ul id="list" role="list"></ul>
+      <noscript>Activez JavaScript pour afficher les résultats filtrables ou téléchargez directement le fichier GeoJSON.</noscript>
+    </div>
+    <div class="map-panel">
       <div class="map-header">
-        <h2 id="map-heading" tabindex="-1">Carte</h2>
+        <div class="map-title-group">
+          <h2 id="map-heading" tabindex="-1">Carte</h2>
+          <div class="legend" aria-label="Légende des marqueurs">
+            <span class="legend-item"><span class="legend-swatch standard" aria-hidden="true"></span> Événement</span>
+            <span class="legend-item"><span class="legend-swatch afup" aria-hidden="true"></span> Signataire AFUP</span>
+          </div>
+        </div>
         <a href="#results">Retour aux résultats</a>
       </div>
       <div id="map"></div>
       <p id="map-message" role="status"></p>
-    </section>
+    </div>
   </main>
+  <footer>
+    <p id="updated-at">Données ouvertes RFC 7946 compatibles uMap.</p>
+    <p>Code sous licence MIT · Aucun cookie ni script tiers chargé à l’exécution.</p>
+  </footer>
 </body>
 </html>
