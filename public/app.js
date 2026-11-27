@@ -15,7 +15,7 @@ const controls = {
 };
 
 const SOURCE_LABELS = {
-  afup_lettre_ouverte: 'Signataire AFUP',
+  afup_lettre_ouverte: 'AFUP',
   luma: 'Luma',
   meetup: 'Meetup',
 };
@@ -24,6 +24,12 @@ const MONTHS_FR = [
   'janvier', 'février', 'mars', 'avril', 'mai', 'juin',
   'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre',
 ];
+const MONTHS_SHORT = [
+  'JAN', 'FÉV', 'MAR', 'AVR', 'MAI', 'JUN',
+  'JUL', 'AOÛ', 'SEP', 'OCT', 'NOV', 'DÉC',
+];
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
 const collator = new Intl.Collator('fr', { sensitivity: 'base' });
 const normalize = value => String(value || '').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '');
 const featurePlace = ({ properties: p }) => p.is_online ? 'online' : p.city ? 'physical' : 'unknown';
@@ -93,6 +99,25 @@ function element(tag, text, className) {
   return node;
 }
 
+function icon(paths, size = 14) {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('width', String(size));
+  svg.setAttribute('height', String(size));
+  svg.setAttribute('fill', 'none');
+  svg.setAttribute('stroke', 'currentColor');
+  svg.setAttribute('stroke-width', '2');
+  svg.setAttribute('stroke-linecap', 'round');
+  svg.setAttribute('stroke-linejoin', 'round');
+  svg.setAttribute('aria-hidden', 'true');
+  for (const d of paths) {
+    const p = document.createElementNS(SVG_NS, 'path');
+    p.setAttribute('d', d);
+    svg.append(p);
+  }
+  return svg;
+}
+
 function safeUrl(url) {
   try {
     const parsed = new URL(url);
@@ -124,51 +149,69 @@ function timeElement(isoDate) {
   return node;
 }
 
-function dateParagraph(p) {
-  if (!p.start_date) return null;
-  const line = element('p', '', 'meta-line');
-  line.append(timeElement(p.start_date));
-  if (p.end_date && p.end_date !== p.start_date) {
-    line.append(' – ', timeElement(p.end_date));
+function buildDateTile(p) {
+  const classes = ['date-tile'];
+  if (!p.start_date) {
+    classes.push('community');
+    const tile = element('div', '', classes.join(' '));
+    tile.setAttribute('aria-hidden', 'true');
+    tile.append(icon([
+      'M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2',
+      'M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z',
+      'M22 21v-2a4 4 0 0 0-3-3.87',
+      'M16 3.13a4 4 0 0 1 0 7.75',
+    ], 18));
+    return tile;
   }
-  return line;
+  if (p.is_afup_signatory) classes.push('afup');
+  const tile = element('div', '', classes.join(' '));
+  tile.setAttribute('aria-hidden', 'true');
+  const [, month, day] = p.start_date.split('-').map(Number);
+  tile.append(
+    element('span', MONTHS_SHORT[month - 1] || '', 'date-month'),
+    element('span', String(day), 'date-day'),
+  );
+  return tile;
 }
 
 function buildBadges(p) {
   const wrap = element('div', '', 'badges');
   if (p.is_afup_signatory) {
-    wrap.append(element('span', 'Signataire AFUP', 'badge afup'));
+    const b = element('span', '', 'badge afup');
+    b.append(icon(['m12 2 2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6Z'], 11), 'Signataire AFUP');
+    wrap.append(b);
   }
   if (p.is_online) {
-    wrap.append(element('span', 'En ligne', 'badge'));
+    wrap.append(element('span', 'En ligne', 'badge online'));
   } else if (!p.start_date) {
     wrap.append(element('span', 'Communauté', 'badge'));
   }
   return wrap.childNodes.length ? wrap : null;
 }
 
-function appendDetails(container, p, includeExtras = false) {
-  const badges = buildBadges(p);
-  if (badges) container.append(badges);
-  container.append(element('p', locationText(p), 'meta-line'));
-  const dates = dateParagraph(p);
-  if (dates) container.append(dates);
-  if (p.sources?.length) {
-    const labels = p.sources.map(source => SOURCE_LABELS[source] || source).join(' · ');
-    container.append(element('p', labels, 'sources'));
-  }
-  if (includeExtras && Array.isArray(p.extra_urls) && p.extra_urls.length) {
-    const validExtras = p.extra_urls.map(safeUrl).filter(Boolean);
-    if (validExtras.length) {
-      const extraLine = element('p', 'Liens associés : ', 'extra-links');
-      validExtras.slice(0, 2).forEach((parsed, index) => {
-        if (index > 0) extraLine.append(' · ');
-        const hostLabel = parsed.hostname.replace(/^www\./, '');
-        extraLine.append(link(parsed.href, hostLabel));
-      });
-      container.append(extraLine);
+function buildMetaList(p) {
+  const meta = element('div', '', 'meta-list');
+  const loc = element('p', '', 'meta-item');
+  loc.append(
+    p.is_online
+      ? icon(['M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z', 'M2 12h20', 'M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z'])
+      : icon(['M12 21s-7-5.686-7-11a7 7 0 1 1 14 0c0 5.314-7 11-7 11Z', 'M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z']),
+    locationText(p),
+  );
+  meta.append(loc);
+
+  if (p.start_date) {
+    const dateItem = element('p', '', 'meta-item');
+    dateItem.append(
+      icon(['M8 2v4', 'M16 2v4', 'M3 10h18', 'M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z']),
+      timeElement(p.start_date),
+    );
+    if (p.end_date && p.end_date !== p.start_date) {
+      dateItem.append(' – ', timeElement(p.end_date));
     }
+    meta.append(dateItem);
   }
+  return meta;
 }
 
 function escapeIcs(value) {
@@ -223,14 +266,17 @@ function coordinates(feature) {
 function markerFor(feature, onOpen) {
   const p = feature.properties;
   const popup = element('div');
-  popup.append(link(p.url, p.name));
-  appendDetails(popup, p, false);
+  popup.append(link(p.url, p.name, 'popup-title'));
+  const badges = buildBadges(p);
+  if (badges) popup.append(badges);
+  popup.append(buildMetaList(p));
+
   const marker = L.marker(coordinates(feature), {
     title: p.name,
     alt: p.is_afup_signatory ? `${p.name} (Signataire AFUP)` : p.name,
     icon: L.divIcon({
       className: p.is_afup_signatory ? 'event-pin afup' : 'event-pin',
-      iconSize: p.is_afup_signatory ? [16, 16] : [18, 18],
+      iconSize: p.is_afup_signatory ? [18, 18] : [20, 20],
     }),
   }).bindPopup(popup);
   if (onOpen) marker.on('popupopen', onOpen);
@@ -338,13 +384,39 @@ function render(announce = false) {
   const markers = [];
   activeCard = null;
 
+  if (!selected.length) {
+    cards.append(element('li', 'Aucun événement ou communauté ne correspond aux filtres actifs.', 'empty-state'));
+  }
+
   for (const feature of selected) {
     const p = feature.properties;
     const card = element('li', '', 'card');
+    card.append(buildDateTile(p));
+
+    const body = element('div', '', 'card-body');
     const title = element('h3');
-    title.append(link(p.url, p.name));
-    card.append(title);
-    appendDetails(card, p, true);
+    title.append(link(p.url, p.name, 'card-title-link'));
+    body.append(title);
+
+    const badges = buildBadges(p);
+    if (badges) body.append(badges);
+    body.append(buildMetaList(p));
+
+    if (Array.isArray(p.extra_urls) && p.extra_urls.length) {
+      const validExtras = p.extra_urls.map(safeUrl).filter(Boolean);
+      if (validExtras.length) {
+        const extraLine = element('p', 'Voir aussi : ', 'extra-links');
+        validExtras.slice(0, 2).forEach((parsed, index) => {
+          if (index > 0) extraLine.append(' · ');
+          extraLine.append(link(parsed.href, parsed.hostname.replace(/^www\./, '')));
+        });
+        body.append(extraLine);
+      }
+    }
+
+    const footer = element('div', '', 'card-footer');
+    const sourceLabels = (p.sources || []).map(source => SOURCE_LABELS[source] || source).join(' · ');
+    footer.append(element('p', sourceLabels, 'sources'));
 
     const actions = element('div', '', 'card-actions');
     if (cluster && coordinates(feature)) {
@@ -354,11 +426,18 @@ function render(announce = false) {
         card.classList.add('is-active');
       });
       markers.push(marker);
-      const mapBtn = element('button', 'Voir sur la carte');
+      const mapBtn = element('button', '', 'action-btn');
       mapBtn.type = 'button';
-      mapBtn.setAttribute('aria-label', `Voir sur la carte · ${p.name}`);
+      mapBtn.setAttribute('aria-label', `Localiser sur la carte · ${p.name}`);
+      mapBtn.append(
+        icon(['M12 21s-7-5.686-7-11a7 7 0 1 1 14 0c0 5.314-7 11-7 11Z', 'M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z'], 13),
+        'Localiser',
+      );
       mapBtn.addEventListener('click', () => {
-        $('map-heading').focus();
+        if (window.matchMedia('(max-width: 58rem)').matches) {
+          $('map-heading').scrollIntoView({ behavior: 'smooth' });
+        }
+        $('map-heading').focus({ preventScroll: true });
         cluster.zoomToShowLayer(marker, () => {
           marker.openPopup();
           opener = mapBtn;
@@ -369,14 +448,20 @@ function render(announce = false) {
     }
 
     if (p.start_date) {
-      const icsBtn = element('button', 'Ajouter à l’agenda (.ics)');
+      const icsBtn = element('button', '', 'action-btn');
       icsBtn.type = 'button';
       icsBtn.setAttribute('aria-label', `Ajouter à l’agenda (.ics) · ${p.name}`);
+      icsBtn.append(
+        icon(['M8 2v4', 'M16 2v4', 'M3 10h18', 'M12 14v4', 'M10 16h4', 'M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z'], 13),
+        '.ics',
+      );
       icsBtn.addEventListener('click', () => downloadIcs(p));
       actions.append(icsBtn);
     }
 
-    if (actions.childNodes.length) card.append(actions);
+    if (actions.childNodes.length) footer.append(actions);
+    body.append(footer);
+    card.append(body);
     cards.append(card);
   }
 
@@ -387,7 +472,7 @@ function render(announce = false) {
     cluster.clearLayers();
     cluster.addLayers(markers);
     if (markers.length === 1) map.setView(markers[0].getLatLng(), 9);
-    else if (markers.length > 1) map.fitBounds(cluster.getBounds(), { padding: [30, 30], maxZoom: 9 });
+    else if (markers.length > 1) map.fitBounds(cluster.getBounds(), { padding: [36, 36], maxZoom: 9 });
   }
 
   const datedCount = selected.filter(f => f.properties.start_date).length;
@@ -396,14 +481,19 @@ function render(announce = false) {
   const mappedCount = selected.filter(coordinates).length;
 
   const text = selected.length
-    ? `${selected.length} entrée(s) (${datedCount} événement(s), ${communityCount} communauté(s)) · ${mappedCount} sur la carte · ${onlineCount} en ligne`
-    : 'Aucun résultat ne correspond aux filtres sélectionnés.';
+    ? `${datedCount} événement(s) · ${communityCount} communauté(s) · ${mappedCount} sur la carte · ${onlineCount} en ligne`
+    : 'Aucun résultat pour ces critères.';
   summary.textContent = text;
   if (announce) announcePolite(text);
 }
 
 if (window.L?.markerClusterGroup) {
-  map = L.map('map', { scrollWheelZoom: false, attributionControl: false }).setView([46.6, 2.4], 5);
+  const desktopSplit = window.matchMedia('(min-width: 58.01rem)');
+  map = L.map('map', { scrollWheelZoom: desktopSplit.matches, attributionControl: false }).setView([46.6, 2.4], 5);
+  desktopSplit.addEventListener('change', e => {
+    if (e.matches) map.scrollWheelZoom.enable();
+    else map.scrollWheelZoom.disable();
+  });
   L.control.attribution({ prefix: false }).addTo(map);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -411,7 +501,7 @@ if (window.L?.markerClusterGroup) {
   }).on('tileerror', () => {
     $('map-message').textContent = 'Certaines tuiles du fond de carte sont indisponibles.';
   }).addTo(map);
-  cluster = L.markerClusterGroup().addTo(map);
+  cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 }).addTo(map);
   $('map-link').hidden = false;
   map.on('popupclose', () => {
     if (activeCard) {
@@ -457,7 +547,7 @@ fetch('./events.geojson')
     if (data.metadata?.generated_at) {
       const genDate = formatCalendarDate(String(data.metadata.generated_at).slice(0, 10));
       if (genDate) {
-        $('updated-at').textContent = `Dernière actualisation : ${genDate} · Export GeoJSON RFC 7946 compatible uMap.`;
+        $('updated-at').textContent = `Actualisé le ${genDate} · GeoJSON uMap`;
       }
     }
     const today = todayPlainISO();
