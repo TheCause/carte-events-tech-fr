@@ -277,6 +277,51 @@ class CollectTestCase(unittest.TestCase):
                 self.assertEqual(payload["features"][0]["geometry"]["coordinates"], [2.3522, 48.8566])
                 self.assertIsNone(payload["features"][1]["geometry"])
 
+    def test_alafrench_source_and_tagging(self):
+        home_html = """
+        <html lang="fr"><body>
+          <div aria-hidden="true">01/01/2099 NOISE</div>
+          <h1>À\xa0LA FRENCH CONFÉRENCE</h1>
+          <p>CONF · 03.12.2099 · PARIS</p>
+          <a href="https://portal.joinfost.io/event/fost-2099/123/a-la-french-conf-paris-2099">[ CHOISIR CE TICKET ]</a>
+          <a href="https://portal.joinfost.io/event/fost-2099/123/addons">Options</a>
+        </body></html>
+        """
+        portal_html = """
+        <html lang="fr"><head><title>A la French Conf Paris 2099</title></head><body>
+          <h1>A la French Conf Paris 2099</h1>
+          <p>3 décembre 2099 · CNIT FOREST, 2 Place de la Défense, 92092 Puteaux</p>
+        </body></html>
+        """
+
+        def handler(request: httpx.Request) -> httpx.Response:
+            url = str(request.url)
+            if url == "https://alafrench.org/":
+                return httpx.Response(200, text=home_html, headers={"content-type": "text/html"})
+            if "a-la-french-conf-paris-2099" in url:
+                return httpx.Response(200, text=portal_html, headers={"content-type": "text/html"})
+            raise AssertionError(f"Unexpected request: {url}")
+
+        with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+            events = list(collect.alafrench(client))
+        self.assertEqual(len(events), 1)
+        conf = events[0]
+        self.assertEqual(conf.title, "À la French Conférence")
+        self.assertEqual(conf.url, "https://alafrench.org/")
+        self.assertEqual(conf.start, "2099-12-03")
+        self.assertEqual(conf.city, "Puteaux")
+        self.assertEqual(conf.code, "FR")
+        self.assertEqual(conf.sources, ["alafrench"])
+        self.assertEqual(len(conf.extra_urls), 1)
+
+        sample = [
+            collect.Event("Apéro Live À la French Lyon", "https://luma.com/abc", "2099-10-10", "2099-10-10", "Lyon", "FR", False, ["luma"]),
+            collect.Event("Bienvenue à la French Tech Bordeaux", "https://meetup.com/ftbx/events/1", "2099-10-11", "2099-10-11", "Bordeaux", "FR", False, ["meetup"]),
+        ]
+        collect.tag_alafrench(sample)
+        self.assertIn("alafrench", sample[0].sources)
+        self.assertNotIn("alafrench", sample[1].sources)
+
 
 if __name__ == "__main__":
     unittest.main()

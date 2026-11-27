@@ -36,7 +36,7 @@ COUNTRIES = {
         "Dijon|Metz|Nancy|Pau|Poitiers|Angers|Orléans|Annecy|Avignon|Reims|Limoges|Niort|"
         "La Rochelle|Vannes|Lorient|Quimper|Saint-Étienne|Chambéry|Valence|Besançon|Mulhouse|"
         "Amiens|Le Mans|Le Havre|Nîmes|Perpignan|Toulon|Bayonne|Biarritz|Bidart|Laval|Blois|"
-        "Bourges|Troyes|Arras|Valenciennes|Roubaix|Villeurbanne|Nanterre|Châtillon|Balma|Échirolles",
+        "Bourges|Troyes|Arras|Valenciennes|Roubaix|Villeurbanne|Nanterre|Puteaux|Courbevoie|Châtillon|Balma|Échirolles",
     ),
     "BE": ("Belgique", "Bruxelles|Liège|Namur|Louvain-la-Neuve|Mons|Charleroi"),
     "CH": ("Suisse", "Genève|Lausanne|Neuchâtel|Fribourg|Sion|Yverdon-les-Bains"),
@@ -109,8 +109,36 @@ NATIONAL_HINT = re.compile(r"\b(?:france|francophone|francophonie|national\w*)\b
 AGGREGATOR_HOSTS = {"dev.events", "developers.events"}
 SHARED_HOSTS = AGGREGATOR_HOSTS | {
     "meetup.com", "luma.com", "lu.ma", "eventbrite.fr", "eventbrite.com", "billetweb.fr",
-    "helloasso.com", "gdg.community.dev", "sessionize.com", "pretalx.com", "kommunity.com", "mobilizon.fr",
+    "helloasso.com", "gdg.community.dev", "sessionize.com", "pretalx.com", "kommunity.com",
+    "mobilizon.fr", "joinfost.io",
 }
+ALAFRENCH = "alafrench"
+ALAFRENCH_RE = re.compile(r"\b(?:a[- ]la[- ]french(?!\s*(?:tech|touch|guinguette))|alafrench)\b")
+MONTH_NUMBERS = {
+    "janvier": 1, "january": 1, "jan": 1,
+    "fevrier": 2, "february": 2, "feb": 2, "fev": 2,
+    "mars": 3, "march": 3, "mar": 3,
+    "avril": 4, "april": 4, "apr": 4, "avr": 4,
+    "mai": 5, "may": 5,
+    "juin": 6, "june": 6, "jun": 6,
+    "juillet": 7, "july": 7, "jul": 7,
+    "aout": 8, "august": 8, "aug": 8,
+    "septembre": 9, "september": 9, "sep": 9, "sept": 9,
+    "octobre": 10, "october": 10, "oct": 10,
+    "novembre": 11, "november": 11, "nov": 11,
+    "decembre": 12, "december": 12, "dec": 12,
+}
+HUMAN_MONTH_RE = re.compile(
+    r"\b(\d{1,2})(?:\s*(?:-|–|—|au|to)\s*(\d{1,2}))?\s+("
+    + "|".join(sorted(MONTH_NUMBERS, key=len, reverse=True))
+    + r")\.?\s+(20\d{2})\b"
+)
+HUMAN_NUMERIC_DATE_RE = re.compile(r"\b(\d{2})[./](\d{2})[./](20\d{2})\b")
+EVENT_PLATFORM_RE = re.compile(
+    r"^https?://(?:portal\.joinfost\.io/event/|luma\.com/|lu\.ma/|(?:www\.)?meetup\.com/|"
+    r"(?:www\.)?billetweb\.fr/|(?:www\.)?eventbrite\.[a-z.]+/|(?:www\.)?helloasso\.com/)",
+    re.I,
+)
 
 
 @dataclass
@@ -545,6 +573,137 @@ def meetup(client):
             yield from entries
 
 
+def parse_human_dates(text):
+    normalized = norm(text)
+    for match in HUMAN_MONTH_RE.finditer(normalized):
+        day1, day2, month_name, year = match.groups()
+        month = MONTH_NUMBERS[month_name]
+        try:
+            start = dt.date(int(year), month, int(day1)).isoformat()
+            end = dt.date(int(year), month, int(day2 or day1)).isoformat()
+            if start <= end and end >= TODAY:
+                return start, end
+        except ValueError:
+            continue
+    for match in HUMAN_NUMERIC_DATE_RE.finditer(normalized):
+        day, month, year = match.groups()
+        try:
+            iso = dt.date(int(year), int(month), int(day)).isoformat()
+            if iso >= TODAY:
+                return iso, iso
+        except ValueError:
+            continue
+    return None, None
+
+
+def _visible_text(soup):
+    clone = BeautifulSoup(str(soup), "lxml")
+    for hidden in clone.select("[aria-hidden='true'], script, style"):
+        hidden.decompose()
+    return clone.get_text(" ", strip=True)
+
+
+def alafrench(client):
+    base = "https://alafrench.org/"
+    response = get(client, base)
+    if response is None:
+        return
+    soup = BeautifulSoup(response.content, "lxml")
+    home_url = str(response.url)
+    upcoming = [
+        event
+        for node in schema_events(soup)
+        if (event := parse_schema(node, home_url, ALAFRENCH))
+    ]
+    if not upcoming:
+        for agenda_url in list(afup_agenda_links(soup, home_url))[:2]:
+            agenda = get(client, agenda_url, timeout=8)
+            if agenda is not None:
+                agenda_soup = BeautifulSoup(agenda.content, "lxml")
+                upcoming.extend(
+                    event
+                    for node in schema_events(agenda_soup)
+                    if (event := parse_schema(node, str(agenda.url), ALAFRENCH))
+                )
+
+    h1 = soup.find("h1")
+    raw_h1 = re.sub(r"\s+", " ", h1.get_text(" ", strip=True)) if h1 else ""
+    home_title = "À la French Conférence" if norm(raw_h1) == "a la french conference" else (raw_h1 or "À la French Conférence")
+    home_text = _visible_text(soup)
+    home_city_match = CITY_PATTERN.search(norm(home_text))
+    home_city, home_code = CITIES[home_city_match.group()] if home_city_match else ("Paris", "FR")
+
+    seen_links = set()
+    for link in soup.select("a[href]"):
+        target = url_for(link.get("href"), home_url)
+        if not target or target in seen_links or target.rstrip("/").endswith("/addons") or not EVENT_PLATFORM_RE.search(target):
+            continue
+        seen_links.add(target)
+        detail = get(client, target)
+        if detail is None:
+            continue
+        detail_soup = BeautifulSoup(detail.content, "lxml")
+        detail_url = str(detail.url)
+        structured = [
+            event
+            for node in schema_events(detail_soup)
+            if (event := parse_schema(node, detail_url, ALAFRENCH))
+        ]
+        if structured:
+            for event in structured:
+                if home_url != event.url and home_url not in event.extra_urls:
+                    event.extra_urls.append(home_url)
+                upcoming.append(event)
+            continue
+        detail_text = _visible_text(detail_soup)
+        start, end = parse_human_dates(detail_text)
+        if not start:
+            continue
+        detail_h1 = detail_soup.find("h1")
+        detail_title = (
+            re.sub(r"\s+", " ", detail_h1.get_text(" ", strip=True))
+            if detail_h1
+            else (detail_soup.title.get_text(" ", strip=True) if detail_soup.title else home_title)
+        )
+        postal_match = re.search(r"\b\d{5}\s+(" + "|".join(map(re.escape, sorted(CITIES, key=len, reverse=True))) + r")(?!\w)", norm(detail_text))
+        city_match = postal_match or CITY_PATTERN.search(norm(detail_text))
+        city, code = CITIES[city_match.group(1 if postal_match else 0)] if city_match else (home_city, home_code)
+        is_flagship = bool(ALAFRENCH_RE.search(norm(detail_title))) and "conf" in norm(detail_title)
+        primary_url = home_url if is_flagship else detail_url
+        extras = [detail_url] if is_flagship and detail_url != home_url else ([home_url] if home_url != detail_url else [])
+        upcoming.append(Event(
+            home_title if is_flagship else detail_title,
+            primary_url,
+            start,
+            end,
+            city,
+            code,
+            False,
+            [ALAFRENCH],
+            extras,
+        ))
+
+    if not upcoming:
+        start, end = parse_human_dates(home_text)
+        if start:
+            upcoming.append(Event(home_title, home_url, start, end, home_city, home_code, False, [ALAFRENCH]))
+
+    if upcoming:
+        yield from upcoming
+    else:
+        yield Event("À la French", home_url, None, None, home_city, home_code, False, [ALAFRENCH])
+
+
+def tag_alafrench(events):
+    """Rattache à À la French les événements mentionnant explicitement À la French ou alafrench."""
+    for event in events:
+        if ALAFRENCH in event.sources:
+            continue
+        haystack = norm(" ".join([event.title, event.url, *event.extra_urls]))
+        if ALAFRENCH_RE.search(haystack):
+            event.sources = sorted(set([*event.sources, ALAFRENCH]))
+
+
 def meetup_group(url):
     parsed = urlsplit(url)
     if parsed.hostname not in {"meetup.com", "www.meetup.com"}:
@@ -800,7 +959,7 @@ def main():
                "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.5"}
     with httpx.Client(headers=headers, timeout=15, follow_redirects=True) as client, closing(sqlite3.connect(ROOT / ".geocache.sqlite")) as db:
         raw_events = []
-        for source in (afup, developers, regional, luma, meetup):
+        for source in (afup, alafrench, developers, regional, luma, meetup):
             try:
                 entries = list(source(client))
                 raw_events.extend(entries)
@@ -810,6 +969,7 @@ def main():
         if not raw_events:
             raise SystemExit("Aucune entrée collectée. Le GeoJSON existant est conservé.")
         tag_afup_meetups(raw_events)
+        tag_alafrench(raw_events)
         events = deduplicate(raw_events)
         export(client, events, Geocoder(db), OUTPUT)
         logging.info("%s · %s entrées distinctes", OUTPUT, len(events))

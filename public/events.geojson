@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated_at": "2026-11-27T05:29:03.747266+00:00",
-    "total": 200
+    "generated_at": "2026-11-27T07:50:12.876671+00:00",
+    "total": 202
   },
   "features": [
     {
@@ -111,30 +111,6 @@
           "afup_lettre_ouverte",
           "dev.events",
           "developers.events"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.58788,
-          44.85194
-        ]
-      },
-      "properties": {
-        "name": "Journée Portes Ouvertes au Wagon Bordeaux",
-        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317312936/",
-        "extra_urls": [],
-        "start_date": "2026-11-27",
-        "end_date": "2026-11-27",
-        "city": "Bordeaux",
-        "country": "France",
-        "is_online": false,
-        "is_afup_signatory": false,
-        "sources": [
-          "meetup"
         ]
       }
     },
@@ -802,30 +778,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.347,
-          48.859
-        ]
-      },
-      "properties": {
-        "name": "#7 Meetup A11Y chez Octo",
-        "url": "https://www.meetup.com/a11y-lutece/events/317086879/",
-        "extra_urls": [],
-        "start_date": "2026-12-02",
-        "end_date": "2026-12-02",
-        "city": "Paris",
-        "country": "France",
-        "is_online": false,
-        "is_afup_signatory": false,
-        "sources": [
-          "meetup"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.55533,
           47.23937
         ]
@@ -933,6 +885,56 @@
         "start_date": "2026-12-02",
         "end_date": "2026-12-02",
         "city": "Paris",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2372,
+          48.88416
+        ]
+      },
+      "properties": {
+        "name": "À la French Conférence",
+        "url": "https://alafrench.org/",
+        "extra_urls": [
+          "https://portal.joinfost.io/event/future-of-software-technologies-paris-2026/5e27c773-7fa8-4169-b6a7-93494701212a/a-la-french-conf-paris-2026"
+        ],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Puteaux",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "alafrench"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.58788,
+          44.85194
+        ]
+      },
+      "properties": {
+        "name": "À travers les yeux d’une IA : atelier découverte de la data science",
+        "url": "https://www.meetup.com/le-wagon-bordeaux-coding-station-bootcamp/events/317311220/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Bordeaux",
         "country": "France",
         "is_online": false,
         "is_afup_signatory": false,
@@ -1075,6 +1077,30 @@
         "end_date": "2026-12-03",
         "city": "Paris",
         "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56981,
+          45.50318
+        ]
+      },
+      "properties": {
+        "name": "Panel: Démocratiser l’IA",
+        "url": "https://www.meetup.com/le-wagon-montreal/events/317472495/",
+        "extra_urls": [],
+        "start_date": "2026-12-03",
+        "end_date": "2026-12-03",
+        "city": "Montréal",
+        "country": "Canada",
         "is_online": false,
         "is_afup_signatory": false,
         "sources": [
@@ -2138,6 +2164,30 @@
         "is_afup_signatory": true,
         "sources": [
           "afup_lettre_ouverte",
+          "meetup"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.04539,
+          50.63095
+        ]
+      },
+      "properties": {
+        "name": "Atelier: Introduction au Harness Engineering avec AWS Strands Agents",
+        "url": "https://www.meetup.com/lille-aws-amazon-web-services-user-group/events/317584405/",
+        "extra_urls": [],
+        "start_date": "2026-12-15",
+        "end_date": "2026-12-15",
+        "city": "Lille",
+        "country": "France",
+        "is_online": false,
+        "is_afup_signatory": false,
+        "sources": [
           "meetup"
         ]
       }

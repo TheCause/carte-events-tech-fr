@@ -16,6 +16,7 @@ const controls = {
 
 const SOURCE_LABELS = {
   afup_lettre_ouverte: 'AFUP',
+  alafrench: 'À la French',
   luma: 'Luma',
   meetup: 'Meetup',
 };
