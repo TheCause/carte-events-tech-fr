@@ -30,4 +30,4 @@ Téléchargez `events.geojson` depuis la carte et importez-le au format GeoJSON 
 
 ## Licences et confidentialité
 
-Le code du projet est sous licence MIT. Leaflet et Leaflet.markercluster sont servis localement avec leurs licences respectives dans `public/vendor`. Les données issues des sources conservent leurs conditions d’utilisation. Le fond de carte charge les tuiles auprès d’OpenStreetMap France et affiche les attributions. L’interface n’inclut ni outil de mesure d’audience, ni cookie applicatif, ni script tiers chargé à l’exécution.
+Le code du projet est sous licence MIT. Leaflet et Leaflet.markercluster sont servis localement avec leurs licences respectives dans `public/vendor`. Les données issues des sources conservent leurs conditions d’utilisation. Le fond de carte charge les tuiles auprès d’OpenStreetMap (`tile.openstreetmap.org`) et affiche les attributions. L’interface n’inclut ni outil de mesure d’audience, ni cookie applicatif, ni script tiers chargé à l’exécution.

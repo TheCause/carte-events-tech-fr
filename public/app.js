@@ -405,9 +405,9 @@ function render(announce = false) {
 if (window.L?.markerClusterGroup) {
   map = L.map('map', { scrollWheelZoom: false, attributionControl: false }).setView([46.6, 2.4], 5);
   L.control.attribution({ prefix: false }).addTo(map);
-  L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
-    maxZoom: 20,
-    attribution: '© <a href="https://www.openstreetmap.org/copyright" rel="noreferrer">OpenStreetMap</a> · Tuiles <a href="https://www.openstreetmap.fr/" rel="noreferrer">OSM France</a>',
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright" rel="noreferrer">OpenStreetMap</a>',
   }).on('tileerror', () => {
     $('map-message').textContent = 'Certaines tuiles du fond de carte sont indisponibles.';
   }).addTo(map);
